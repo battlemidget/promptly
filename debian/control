@@ -1,0 +1,28 @@
+Source: python-promptly
+Maintainer: Adam Stokes <adam.stokes@ubuntu.com>
+Section: admin
+Priority: optional
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python3-mock, python3-nose, python3-colorama
+Homepage: https://github.com/aventurella/promptly
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.3
+
+Package: python-promptly
+Architecture: any
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Build command line prompts
+ A little python utility to help you build command line prompts that
+ can be styled using CSS.
+ .
+ This package provides the Python 2 library
+
+Package: python3-promptly
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Build command line prompts
+ A little python utility to help you build command line prompts that
+ can be styled using CSS.
+ .
+ This package provides the Python 3 library
+

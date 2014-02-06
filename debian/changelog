@@ -1,0 +1,5 @@
+python-promptly (0.5.4-1) UNRELEASED; urgency=low
+
+  * Initial packaging for promptly 0.5.4 (e1d7ba8)
+
+ -- Adam Stokes <adam.stokes@ubuntu.com>  Thu, 06 Feb 2014 14:19:39 -0500
